@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create": "node ./services/dbConnect createTables"
+    "create": "node ./services/dbConnect createTables",
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
